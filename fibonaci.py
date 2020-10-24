@@ -1,22 +1,20 @@
-num = int(input("Enter a number "))
+n = int(input("Enter a number "))
+
+x = 0
+y = 1
+if n == 1:
+    print(x)
+elif n == 2:
+    print(y)
+else:
+    print(x)
+    print(y)
+
+while y < (n - y):
+    z = x + y
+    x = y
+    y = z
+    print(z)
 
 
-def fib(n):
-    a = 0
-    b = 1
-    if n == 1:
-        print(a)
-    elif n == 2:
-        print(b)
-    else:
-        print(a)
-        print(b)
 
-    for i in range(2, n):
-        c = a + b
-        a = b
-        b = c
-        print(c)
-
-
-fib(num)
